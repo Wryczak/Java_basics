@@ -6,5 +6,6 @@ public class Main {
 
         System.out.println("Set Training");
         SetTraining.trainSet();
+
     }
 }
