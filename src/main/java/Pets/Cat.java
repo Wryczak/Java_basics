@@ -1,6 +1,6 @@
 package Pets;
 
-public class Cat {
+public class Cat implements Animal {
     private String name;
     private Integer mouseCounter;
 
@@ -30,6 +30,7 @@ public class Cat {
         return this.mouseCounter;
     }
 
+    @Override
     public void makeSound() {
         System.out.println(name + " goes meow");
 

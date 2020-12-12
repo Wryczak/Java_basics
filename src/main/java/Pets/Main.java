@@ -35,5 +35,18 @@ public class Main {
         dog2.makeSound();
         dog3.makeSound();
 
+        System.out.println("EX 5");
+
+        List<Animal> animals= new ArrayList<>();
+        animals.add(cat1);
+        animals.add(cat2);
+        animals.add(cat3);
+        animals.add(dog1);
+        animals.add(dog2);
+        animals.add(dog3);
+
+        for (Animal animal:animals) {
+            animal.makeSound();
+        }
     }
 }
