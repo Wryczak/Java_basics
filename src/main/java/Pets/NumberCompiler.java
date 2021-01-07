@@ -12,6 +12,14 @@ public class NumberCompiler {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Please enter the number: ");
         lineNumber = scanner.nextLine();
+        lineNumber.toCharArray();
+        System.out.println(lineNumber);
+        char[] chars= lineNumber.toCharArray();
+        chars.toString();
+        System.out.println(chars);
+        for (char chars1 : chars) {
+            System.out.println(chars1);
+        }
         return Long.parseLong(lineNumber);
     }
     public long reducerLoop() {
